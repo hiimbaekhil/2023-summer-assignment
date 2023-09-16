@@ -1,4 +1,5 @@
 public class PaymentTest {
+
     public static void main(String[] args) {
 
         // create six-element Payment array
