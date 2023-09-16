@@ -2,7 +2,7 @@ public class PaymentTest {
     public static void main(String[] args) {
 
         // create six-element Payment array
-        Payment[] paymentObjects = new Payment[] {
+        Payment[] paymentObjects = new Payment[]{
                 new GraduateStudent("子偉", "林", "ID-001", 4),
                 new GraduateStudent("進德", "張", "ID-002", 3),
                 new UndergraduateStudent("俊麟", "郭", "ID-003"),
