@@ -1,4 +1,5 @@
 public abstract class Student implements Payment {
+
     private final String firstName;
     private final String lastName;
     private final String studentID;

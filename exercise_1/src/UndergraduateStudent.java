@@ -1,4 +1,5 @@
 public class UndergraduateStudent extends Student {
+
     // constructor
     public UndergraduateStudent(String firstName, String lastName, String studentID) {
         super(firstName, lastName, studentID);

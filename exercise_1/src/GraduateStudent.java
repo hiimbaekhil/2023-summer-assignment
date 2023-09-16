@@ -1,4 +1,5 @@
 public class GraduateStudent extends Student {
+
     private final int numberOfCourses;
 
     // constructor

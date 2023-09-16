@@ -1,5 +1,6 @@
 public class PaymentTest {
     public static void main(String[] args) {
+
         // create six-element Payment array
         Payment[] paymentObjects = new Payment[] {
                 new GraduateStudent("子偉", "林", "ID-001", 4),
@@ -11,10 +12,13 @@ public class PaymentTest {
         };
 
         int total = 0;
+
         // generically process each element in array paymentObjects
         for (Payment currentPayment : paymentObjects) {
+
             // output currentPayment and its appropriate payment amount
             System.out.println(currentPayment);
+
             // determine whether element is a GraduateStudent
             if (currentPayment instanceof GraduateStudent) {
 
