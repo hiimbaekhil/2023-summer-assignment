@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class KeelungSightsCrawlerTest {
+
     public static void main(String[] args) {
 
         KeelungSightsCrawler crawler = new KeelungSightsCrawler();
