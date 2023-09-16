@@ -74,11 +74,8 @@ public class Sight implements Serializable {
     @Override
     public String toString() {
         return String.format("%s: %s%n%s: %s%n%s: %s%n%s: %s%n%s: %s%n%s: %s%n",
-                "sightName", getSightName(),
-                "zone", getZone(),
-                "category", getCategory(),
-                "photoURL", getPhotoURL(),
-                "description", getDescription(),
+                "sightName", getSightName(), "zone", getZone(), "category", getCategory(),
+                "photoURL", getPhotoURL(), "description", getDescription(),
                 "address", getAddress());
     }
 }
